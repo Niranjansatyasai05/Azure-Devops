@@ -15,10 +15,10 @@ Publish the build artifact.
 
 The main technologies are:
 
-Python
-Git
-GitHub / Azure Repos
-Azure DevOps
-Azure Pipelines
-YAML
-PyTest
+Python,
+Git,
+GitHub / Azure Repos,
+Azure DevOps,
+Azure Pipelines,
+YAML,
+PyTest.
