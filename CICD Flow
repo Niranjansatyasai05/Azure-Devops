@@ -1,13 +1,1 @@
-python-azure-devops-cicd
-python-azure-devops-cicd/
-│
-├── src/
-│   └── calculator.py
-│
-├── tests/
-│   └── test_calculator.py
-│
-├── requirements.txt
-├── azure-pipelines.yml
-├── .gitignore
-└── README.md
+
