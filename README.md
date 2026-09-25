@@ -1,24 +1,41 @@
-Python CI/CD Pipeline with Azure DevOps
-1. Project Overview
+# Python CI/CD Pipeline using Azure DevOps
 
-This project demonstrates how to create a CI/CD pipeline for a Python application using Azure DevOps and YAML.
+## Overview
 
-The pipeline will automatically:
+This project demonstrates a Python Continuous Integration pipeline using
+Azure DevOps and YAML.
 
-Get the Python source code from the repository.
-Set up the required Python version.
-Install project dependencies.
-Run automated tests.
-Publish test results.
-Build/package the application.
-Publish the build artifact.
+The pipeline automatically:
 
-The main technologies are:
+- Installs Python dependencies
+- Runs unit tests
+- Generates code coverage
+- Publishes test results
+- Packages the application
+- Publishes a build artifact
 
-Python,
-Git,
-GitHub / Azure Repos,
-Azure DevOps,
-Azure Pipelines,
-YAML,
-PyTest.
+## Technologies
+
+- Python
+- PyTest
+- Git
+- GitHub
+- Azure DevOps
+- Azure Pipelines
+- YAML
+
+## Project Structure
+
+```text
+python-azure-devops-cicd/
+│
+├── src/
+│   └── calculator.py
+│
+├── tests/
+│   └── test_calculator.py
+│
+├── requirements.txt
+├── azure-pipelines.yml
+├── .gitignore
+└── README.md
